@@ -1,0 +1,652 @@
+/*UNIVERSAL*/
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar{
+
+    height: 100px;
+    width: 100%;
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: white;
+    
+}
+
+.navbar .navLeft{
+
+    height: inherit;
+    width: 30%;
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.navbar .navLeft h1{
+
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 3px;
+
+}
+
+.navbar .navLeft p{
+
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing:2px;
+
+}
+
+.navbar .navRight{
+    height: 100px;
+    width: 35%;
+     /* border:2px solid red;  */
+     display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between; 
+
+}
+
+.navbar .navRight a{
+
+    text-decoration: none;
+    color:rgb(89,89,89);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+
+}
+
+.navbar .navRight a:hover{
+
+    color:rgb(17, 112, 114); 
+    
+
+}
+
+.navbar .navRight .green{
+
+    color:rgb(68,127,128);
+
+}
+
+.navbar .navRight a img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+/* NAVBAR */
+
+/* SECTION 1 */
+
+.s1{
+    padding-top: 200px;
+    height: 900px;
+    width: 100%;
+     /* border: 1px solid red;  */
+    background-image:url(images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.s1 p{
+
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 4px;
+
+}
+
+.s1 h1{
+
+    font-size: 140px;
+    letter-spacing: 20px;
+    line-height: 200px;
+
+}
+
+
+.s1 h3{
+
+    font-size: 22px;
+    font-weight: 200;
+    letter-spacing: 2px;
+
+}
+
+.s1 button{
+
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 25px;
+    transition: 0.5s;
+
+}
+
+.s1 button:hover{
+
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+
+}
+
+/* SECTION 1 */
+
+/* SECTION 2 */
+
+.s2{
+   
+    height: 700px;
+    width: 100%;
+    /* border:2px solid black; */
+    display: flex;
+    /* align-content: center; */
+    /* justify-content: center; */
+
+}
+
+
+.s2 .Left{
+
+    height: 700px;
+    width: 50%;
+    /* border:2px solid rgb(21, 195, 205);  */
+    
+}
+
+.s2 .Left .line{
+
+    height: 2px;
+    width: 40px;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: 350px;
+
+}
+
+.s2 .Left .box{
+
+    height: 595px;
+    width: 50%;
+    /* border: 2px solid red; */
+    margin-top: 50px; 
+    margin-left: 350px;
+
+}
+
+.s2 .Left .box h1{
+
+font-size: 42px;
+font-weight: 600;
+letter-spacing: 5px;
+
+
+}
+
+.s2 .Left .box h2{
+
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    line-height: 20px;
+    
+}
+
+.s2 .Left .box p{
+    margin-top:50px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+ .s2 .Left .box button{
+    width: 130px;
+    z-index: -1;
+    height: 50px;
+    position: relative;
+    top: 40px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+   
+}
+.s2 .Left .box button:hover{
+    background-color:rgb(255, 255, 255); 
+    color: black;
+    transition: 0.32s;
+    border: 2px solid black;
+} 
+#www{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    width: 180px;
+    height: 50px;
+}
+#www:hover{
+    background-color: black;
+    color: white;
+    transform-origin: 0.3s;
+}
+
+
+.s2 .Right{
+
+    height: 700px;
+    width: 50%;
+    /* border:2px solid rgb(21, 195, 205); */
+    background-image: url(images/about\ \(2\).jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.s2 .Right img{
+    height: 700px;
+    width: 100%;
+    background-size: cover; 
+}
+
+
+/* SECTION 2 */
+
+/* SECTION 3 */
+
+.main3{
+
+    height: 880px;
+    width: 100%;
+    border: 1px solid #9ACBCF;
+    background-image: url(images/bg2.jpg);
+    background-attachment: fixed;
+
+}
+.main3 .textbox{
+
+    margin-left: 350px;
+    /* border: 1px solid red; */
+
+}
+.main3 .textbox .line{
+
+    height: 1px;
+    width: 40px;
+    border: 1px solid black;
+    margin-top: 55px;
+
+}
+.main3 .textbox  .maintext{
+
+    margin-top: 40px;
+}
+
+.main3 .maintext h2{
+    font-size: 47px;
+    
+    font-weight: 800;
+    letter-spacing: 2.5px;
+    line-height: 58px;
+    word-spacing: 0px;
+}
+.main3 .mainbox{
+    display: flex;
+    margin-left: 350px;
+    gap: 32px;
+    margin-top: 45px;
+}
+.main3 .mainbox .box1{
+    height: 410px;
+    width: 290px;
+    border: 7px solid black;
+}
+.main3 .mainbox .box1 .text{
+    margin-top: 22px;
+}
+.main3 .mainbox .box1 .text h4{
+    font-size: 21.5px;
+    
+    font-weight: 800;
+    letter-spacing: 3.5px;
+    text-align: center;
+}
+.main3 .mainbox .box1 .par1{
+     margin-top: 12px; 
+}
+.main3 .mainbox .box1 .par1  p{
+    font-size: 14px;
+    
+    line-height: 22px;
+    text-align: center;
+}
+.main3 .mainbox .box1 .par1 #milu{
+    /* margin-top: 2px */
+}
+
+.main3 .mainbox .box1 .line{
+    width: 230px;
+    height: 2px;
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 24px;
+}
+.main3 .mainbox .box1  #ab{
+    font-size: 14px;
+    
+    line-height: 22px;
+    text-align: center;
+     margin-top: 30px;  
+}
+.main3 .mainbox .box1  button{
+    height: 42px;
+    width: 100px;
+    border-radius: 0%;
+    font-size: 15.5px;
+    background-color: black;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    margin-top: 115px;
+    margin-left: 87px;
+    font-weight: 300;
+
+}
+.main3 .mainbox .box2{
+    height: 410px;
+    width: 290px;
+    border: 7px solid black;
+}
+.main3 .mainbox .box2 .text{
+    margin-top: 22px;
+}
+.main3 .mainbox .box2 .text h4{
+    font-size: 21.5px;
+    
+    font-weight: 800;
+    letter-spacing: 3.5px;
+    text-align: center;
+}
+.main3 .mainbox .box2 .par1{
+     margin-top: 12px; 
+}
+.main3 .mainbox .box2 .par1  p{
+    font-size: 14px;
+    
+    line-height: 22px;
+    text-align: center;
+}
+.main3 .mainbox .box2 .par1 #milu{
+    /* margin-top: 2px */
+}
+
+.main3 .mainbox .box2 .line{
+    width: 230px;
+    height: 2px;
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 24px;
+}
+.main3 .mainbox .box2  #ab{
+    font-size: 14px;
+   
+    line-height: 22px;
+    text-align: center;
+     margin-top: 30px;  
+}
+.main3 .mainbox .box2  #abc{
+    text-align: center;
+    margin-top: 9px;
+}
+
+.main3 .mainbox .box2  button{
+    height: 42px;
+    width: 100px;
+    border-radius: 0%;
+    font-size: 15.5px;
+    background-color: black;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    margin-top: 85px;
+    margin-left: 87px;
+    font-weight: 300;
+}
+.main3 .mainbox .box3{
+    height: 410px;
+    width: 290px;
+    border: 7px solid black;
+}
+.main3 .mainbox .box3 .text{
+    margin-top: 22px;
+}
+.main3 .mainbox .box3 .text h4{
+    font-size: 21.5px;
+    
+    font-weight: 800;
+    letter-spacing: 3.5px;
+    text-align: center;
+}
+.main3 .mainbox .box3 .par1{
+     margin-top: 12px; 
+}
+.main3 .mainbox .box3 .par1  p{
+    font-size: 14px;
+    
+    line-height: 22px;
+    text-align: center;
+}
+.main3 .mainbox .box3 .par1 #milu{
+    /* margin-top: 2px */
+}
+
+.main3 .mainbox .box3 .line{
+    width: 230px;
+    height: 2px;
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 24px;
+}
+.main3 .mainbox .box3 h6{
+    font-size: 14px;
+    
+    line-height: 22px;
+    text-align: center;
+      margin-top: 30px;   
+     font-weight: 100;
+}
+
+.main3 .mainbox .box3  #ab{
+    font-size: 14px;
+   
+    line-height: 22px;
+    text-align: center;
+     margin-top: 12px;  
+}
+.main3 .mainbox .box3  #abc{
+    text-align: center;
+    margin-top: 9px;
+}
+
+.main3 .mainbox .box3  button{
+    height: 42px;
+    width: 100px;
+    border-radius: 0%;
+    font-size: 15.5px;
+    background-color: black;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+    margin-left: 87px;
+    font-weight: 300;
+}
+.main3 button{
+    height: 44px;
+    width: 185px;
+    border-radius: 0%;
+    font-size: 15.5px;
+    background-color: black;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    margin-top: 90px;
+    margin-left: 750px;
+    font-weight: 300;
+    
+}
+.main3 button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+    font-weight: 400;
+} 
+
+/* SECTION 3 */
+
+/* FOOTER */
+
+.footer{
+    height: 610px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: #57BBBF;
+    display: flex;
+}
+.footer .foot1{
+    margin-left: 350px;
+}
+.footer .foot1 .line{
+    height: 1px;
+    width: 40px;
+    border: 1px solid black;
+    margin-top: 45px;
+}
+.footer .foot1 h4{
+    
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 3.5px;
+    margin-top: 10px;
+}
+.footer .foot1 .text1{
+    margin-top: 45px;
+}
+.footer .foot1 .text1 p{
+    font-size: 14px;
+    font-weight: 300;
+}
+.footer .foot1 .text2{
+    margin-top: 30px;
+}
+.footer .foot1 .text2 p{
+    font-size: 14px;
+    font-weight: 300;
+}
+.footer .foot1 h2{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 27px;
+}
+.footer .foot1 .icon .img{
+    /* font-size: 19px; */
+    /* margin-top: 80px; */
+    display: flex;
+    height: 120px;
+    /* justify-content: space-around; */
+}
+.footer .foot1 .text4{
+    margin-top: 70px;
+}
+.footer .foot1 .text4 p{
+    font-size: 14px;
+    font-weight: 300;
+}
+.footer .foot2{
+    
+     /* position: relative;  */
+}
+.footer .foot2 form{
+
+     /* position: absolute;
+    left: 700px;
+    bottom: 100px; 
+    z-index: 1; */
+    margin-left: 350px;
+    margin-top: 45px;
+}
+.footer .foot2 form label{
+    font-size: 16px;
+    
+    font-weight: 300;
+    line-height: 43px;
+    
+}
+.footer .foot2 form input{
+    height: 35px;
+    width: 450px;
+    background-color: #57BBBF;
+    border: 2px solid black;
+}
+.footer .foot2 form input:hover{
+    border: 3px solid black;
+}
+
+.footer .foot2 form #message{
+    height: 130px;
+}
+.footer .foot2 form button{
+    height: 40px;
+    width: 140px;
+    border-radius: 0%;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+    border: none;
+    margin-left: 310px;
+}
+.footer .foot2 form button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+
+
+
+
+
+
+/* FOOTER */
